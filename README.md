@@ -4,7 +4,6 @@ A festive, serverless Diwali greetings website where visitors can submit a wish 
 
 > **Project status:** Planning / development  
 > **Target AWS Region:** Asia Pacific (Mumbai) — `ap-south-1`  
-> **Budget ceiling:** ₹100–₹200 (hard budget target, not a guaranteed AWS billing cap)
 
 ## What we're building
 
@@ -71,7 +70,7 @@ This project is being built in an AWS **Pay-As-You-Go** account. Free Tier eligi
 - Account for possible taxes, data transfer, logging, domain, and HTTPS-delivery costs.
 - Delete project resources after the demonstration if they are no longer needed.
 
-The ₹100–₹200 figure is a spending target, not a price quote or guarantee. No AWS resources have been deployed as part of this repository update.
+No AWS resources have been deployed as part of this repository update.
 
 ## Repository structure
 
@@ -99,17 +98,6 @@ deepawali-cloud/
 ```
 
 This is the intended structure; folders and implementation files will be added as development progresses.
-
-## Development plan
-
-| Date | Planned work |
-|---|---|
-| 5 November 2026 | Architecture, billing safeguards, repository preparation |
-| 6 November 2026 | DynamoDB design and Lambda backend |
-| 7 November 2026 | Frontend, API integration, validation and testing |
-| 8 November 2026 | Final security, HTTPS and cost review; launch only if checks pass |
-
-Dates are targets, not a claim that these milestones are complete.
 
 ## Learning outcomes
 
