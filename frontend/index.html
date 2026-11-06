@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#170d2b">
+  <meta name="description" content="A warm Diwali greeting from Inj3ktor. Wishing you light, happiness, peace and prosperity.">
+  <title>Happy Diwali — From Inj3ktor</title>
+  <style>
+    :root { color-scheme: dark; --gold:#ffd783; --cream:#fff4dc; --muted:#dfcdb2; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 28px 18px;
+      color: var(--cream); font-family: Georgia, "Times New Roman", serif;
+      background: radial-gradient(ellipse at 50% 0%, #60316b 0%, #28143e 42%, #100b20 100%);
+      overflow-x: hidden;
+    }
+    .scene { width: min(760px, 100%); text-align: center; position: relative; padding: 54px 28px 42px;
+      border: 1px solid rgba(255,215,131,.42); border-radius: 28px;
+      background: linear-gradient(155deg, rgba(255,255,255,.09), rgba(255,255,255,.025));
+      box-shadow: 0 24px 90px rgba(0,0,0,.38), inset 0 0 50px rgba(255,190,90,.05);
+    }
+    .eyebrow { color: var(--gold); font: 600 12px/1.4 Arial, sans-serif; letter-spacing: .28em; text-transform: uppercase; }
+    .diyas { font-size: clamp(34px, 8vw, 58px); margin: 18px 0 10px; filter: drop-shadow(0 0 18px rgba(255,178,55,.5)); }
+    h1 { margin: 8px 0 18px; color: var(--gold); font-size: clamp(42px, 9vw, 76px); line-height: 1.04;
+      text-shadow: 0 3px 28px rgba(255,177,70,.22); }
+    .sub { max-width: 570px; margin: 0 auto; color: var(--muted); font: 16px/1.8 Arial, sans-serif; }
+    .divider { width: 76px; height: 1px; margin: 28px auto; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .wish { max-width: 590px; margin: 0 auto; font-size: clamp(18px, 3.5vw, 22px); line-height: 1.75; }
+    .signature { margin-top: 30px; color: var(--gold); font: 600 14px/1.6 Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+    .footer { margin-top: 32px; color: rgba(255,244,220,.55); font: 12px/1.6 Arial, sans-serif; }
+    .spark { position: fixed; color: rgba(255,215,131,.65); pointer-events: none; animation: twinkle 3s ease-in-out infinite alternate; }
+    .s1 { top: 12%; left: 9%; font-size: 20px; } .s2 { top: 22%; right: 12%; font-size: 14px; animation-delay: 1s; }
+    .s3 { bottom: 14%; left: 15%; font-size: 16px; animation-delay: 1.7s; } .s4 { bottom: 20%; right: 9%; font-size: 22px; animation-delay: .6s; }
+    @keyframes twinkle { from { opacity: .25; transform: scale(.8) rotate(0); } to { opacity: 1; transform: scale(1.2) rotate(18deg); } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <span class="spark s1" aria-hidden="true">✦</span><span class="spark s2" aria-hidden="true">✧</span>
+  <span class="spark s3" aria-hidden="true">✧</span><span class="spark s4" aria-hidden="true">✦</span>
+  <main class="scene">
+    <div class="eyebrow">A festival of lights</div>
+    <div class="diyas" aria-hidden="true">🪔 ✨ 🪔</div>
+    <h1>Happy Diwali!</h1>
+    <p class="sub">May the light of Diwali brighten every path and bring warmth to every heart.</p>
+    <div class="divider" role="presentation"></div>
+    <p class="wish">
+      Wishing you and your loved ones a beautiful Diwali filled with happiness, good health,
+      peace, prosperity, and new beginnings. May every diya remind us that even a little light
+      can overcome darkness, and may the year ahead bring meaningful moments, success, and
+      countless reasons to smile.
+    </p>
+    <p class="signature">With warm wishes,<br>Inj3ktor</p>
+    <p class="footer">Celebrate safely. Share kindness. Keep the light shining.</p>
+  </main>
+</body>
+</html>
